@@ -16,11 +16,9 @@
 
 ## 🧠 About Me
 
-I'm an AI/ML Engineering student at **SRM Institute of Science and Technology, Ramapuram** (B.Tech CSE — AI & ML, CGPA 9.1), focused on building systems that go beyond notebooks — production APIs, experiment-tracked pipelines, LLM-powered applications, and RAG architectures.
+I'm an AI/ML Engineering student at **SRM Institute of Science and Technology** (B.Tech CSE — AI & ML, CGPA 9.1), building systems that go beyond notebooks — production APIs, experiment-tracked pipelines, LLM-powered applications, and RAG architectures.
 
 My work lives at the intersection of **machine learning engineering** and **software engineering**: I care equally about model quality and the infrastructure that makes it deployable, observable, and maintainable.
-
-Currently building toward a career as an **AI Engineer** — not just training models, but shipping them.
 
 ---
 
@@ -41,12 +39,9 @@ Currently building toward a career as an **AI Engineer** — not just training m
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
   <br/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 </p>
 
 ---
@@ -55,11 +50,11 @@ Currently building toward a career as an **AI Engineer** — not just training m
 
 | Domain | What I Build |
 |---|---|
-| **LLM Applications** | Retrieval-augmented generation, legal AI assistants, prompt pipelines |
+| **LLM Applications** | Retrieval-augmented generation, document Q&A, prompt pipelines |
 | **ML Engineering** | End-to-end pipelines from raw data → trained model → monitored API |
 | **MLOps** | MLflow experiment tracking, Docker packaging, FastAPI deployment |
 | **Churn & Risk Modelling** | XGBoost with RFM segmentation, threshold calibration, SHAP explainability |
-| **AI Agents** | Tool-using agents, multi-step reasoning, LLM orchestration |
+| **Fraud Detection** | Ensemble ML, anomaly detection, real-time scoring APIs |
 | **Full-Stack AI** | React frontends wired to FastAPI ML backends |
 
 ---
@@ -69,8 +64,7 @@ Currently building toward a career as an **AI Engineer** — not just training m
 ### 🔴 D2C Customer Churn Intelligence System
 > End-to-end churn prediction pipeline for a direct-to-consumer e-commerce business.
 
-**Stack:** XGBoost · FastAPI · MLflow · Docker · Python  
-**What it does:** RFM feature engineering → XGBoost with class-imbalance handling → threshold-calibrated scoring → REST API with batch prediction, Pydantic validation, pytest suite, Dockerized deployment, and responsible-use monitoring plan.
+**Stack:** XGBoost · FastAPI · MLflow · Docker · Python
 
 | Part | Focus |
 |---|---|
@@ -81,35 +75,45 @@ Currently building toward a career as an **AI Engineer** — not just training m
 
 ---
 
+### 💬 ChatPDF — RAG Document Chatbot
+> Multi-PDF conversational AI using LangChain and FAISS vector embeddings.
+
+**Stack:** Python · LangChain · FAISS · Streamlit · OpenAI · [Repo](https://github.com/Hoppdie/ChatPDF)
+
+---
+
+### 🚨 Fraud Detection System
+> Real-time fraud detection with ensemble ML, SHAP explainability, and FastAPI serving.
+
+**Stack:** Python · XGBoost · SHAP · FastAPI · Docker · [Repo](https://github.com/Hoppdie/fraud-detection-system)
+
+---
+
+### 💳 Customer Churn Prediction
+> ML pipeline on telecom churn with feature engineering, model comparison, and evaluation.
+
+**Stack:** Python · Scikit-learn · Pandas · Matplotlib · [Repo](https://github.com/Hoppdie/Customer_Churn_Prediction)
+
+---
+
+### 🔧 MLOps Workflow
+> Production MLOps template: experiment tracking, model registry, CI/CD, and monitoring.
+
+**Stack:** Python · MLflow · DVC · FastAPI · Docker · GitHub Actions · [Repo](https://github.com/Hoppdie/mlops-workflow)
+
+---
+
 ### ⚖️ Legalynk — AI Legal Assistant
 > LLM-powered legal document Q&A using retrieval-augmented generation.
 
-**Stack:** Python · LLM API · RAG · Vector Embeddings  
-**What it does:** Ingests legal documents, chunks and embeds them, answers natural language questions with retrieved context — making legal information accessible without a lawyer.
+**Stack:** Python · LLM API · RAG · Vector Embeddings
 
 ---
 
 ### 🌱 EcoLearn — AI Environmental Education Platform
-> SIH 2025 finalist project. Multilingual AI platform for environmental education.
+> SIH 2025 finalist. Multilingual AI platform for environmental education.
 
-**Stack:** React · FastAPI · OpenAI/Gemini · Multilingual NLP  
-**What it does:** Generates personalized environmental education content, supports multiple Indian languages, and uses LLMs to adapt explanations to different age groups and literacy levels.
-
----
-
-### 💳 Credit Risk Assessment Pipeline
-> End-to-end ML workflow on the German Credit Dataset.
-
-**Stack:** Python · XGBoost · GridSearchCV · MLflow · Scikit-learn  
-**What it does:** Full pipeline from raw data → feature engineering → hyperparameter search → model evaluation with tracked experiments in MLflow.
-
----
-
-### 📈 Symbolic Reasoning for Stock Market Instability
-> Explainable AI system combining rule-based reasoning with financial risk signals.
-
-**Stack:** Python · Symbolic AI · Explainable AI  
-**What it does:** Encodes financial domain knowledge as logical rules, flags instability conditions, and produces human-readable explanations — bridging the gap between black-box prediction and interpretable reasoning.
+**Stack:** React · FastAPI · OpenAI/Gemini · Multilingual NLP
 
 ---
 
@@ -121,7 +125,7 @@ Currently building toward a career as an **AI Engineer** — not just training m
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Hoppdie&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" height="180"/>
+  <img src="https://streak-stats.demolab.com?user=Hoppdie&theme=tokyonight&hide_border=true" height="180"/>
 </p>
 
 <p align="center">
@@ -133,21 +137,11 @@ Currently building toward a career as an **AI Engineer** — not just training m
 ## 📚 Currently Learning
 
 - **RAG architecture patterns** — dense retrieval, re-ranking, hybrid search
-- **LLM fine-tuning** — LoRA/QLoFA on domain-specific datasets
+- **LLM fine-tuning** — LoRA/QLoRA on domain-specific datasets  
 - **MLOps depth** — model drift detection, data pipeline observability
 - **Agent frameworks** — LangChain, LlamaIndex, tool-use orchestration
 
 ---
-
-## 🤝 Let's Connect
-
-I'm open to **AI/ML internships**, research collaborations, and project discussions.
-
-<p align="center">
-  <a href="mailto:adhiyan2005@gmail.com">
-    <img src="https://img.shields.io/badge/Email-adhiyan2005%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:6EE7F7&height=100&section=footer" width="100%"/>
