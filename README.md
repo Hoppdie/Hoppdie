@@ -51,11 +51,11 @@ My work lives at the intersection of **machine learning engineering** and **soft
 | Domain | What I Build |
 |---|---|
 | **LLM Applications** | Retrieval-augmented generation, document Q&A, prompt pipelines |
-| **ML Engineering** | End-to-end pipelines from raw data → trained model → monitored API |
+| **LLM Internals** | GPT architecture from scratch, attention mechanisms, tokenization |
+| **ML Engineering** | End-to-end pipelines from raw data to trained model to monitored API |
 | **MLOps** | MLflow experiment tracking, Docker packaging, FastAPI deployment |
 | **Churn & Risk Modelling** | XGBoost with RFM segmentation, threshold calibration, SHAP explainability |
 | **Fraud Detection** | Ensemble ML, anomaly detection, real-time scoring APIs |
-| **Full-Stack AI** | React frontends wired to FastAPI ML backends |
 
 ---
 
@@ -90,16 +90,37 @@ My work lives at the intersection of **machine learning engineering** and **soft
 ---
 
 ### 💳 Customer Churn Prediction
-> ML pipeline on telecom churn with feature engineering, model comparison, and evaluation.
+> ML pipeline on telecom churn with feature engineering, model comparison, and SHAP interpretation.
 
 **Stack:** Python · Scikit-learn · Pandas · Matplotlib · [Repo](https://github.com/Hoppdie/Customer_Churn_Prediction)
 
 ---
 
 ### 🔧 MLOps Workflow
-> Production MLOps template: experiment tracking, model registry, CI/CD, and monitoring.
+> Production MLOps template: experiment tracking, model registry, CI/CD, and drift monitoring.
 
 **Stack:** Python · MLflow · DVC · FastAPI · Docker · GitHub Actions · [Repo](https://github.com/Hoppdie/mlops-workflow)
+
+---
+
+### 🤖 nanoGPT — GPT from Scratch
+> Studying and extending Karpathy's minimal GPT-2 implementation. Added fine-tuning guide and benchmark notes.
+
+**Stack:** Python · PyTorch · Transformer Architecture · [Repo](https://github.com/Hoppdie/nanoGPT)
+
+---
+
+### 📚 Made With ML — Applied ML Engineering
+> Working through structured ML engineering curriculum. Logging experiment results and key production patterns.
+
+**Stack:** Python · MLflow · FastAPI · Testing · [Repo](https://github.com/Hoppdie/Made-With-ML)
+
+---
+
+### 🌊 Microsoft Promptflow — LLM App Framework
+> Exploring prompt flow DAGs, evaluation frameworks, and variant A/B testing for production LLM apps.
+
+**Stack:** Python · Promptflow · LLM APIs · RAG · [Repo](https://github.com/Hoppdie/promptflow)
 
 ---
 
@@ -137,9 +158,9 @@ My work lives at the intersection of **machine learning engineering** and **soft
 ## 📚 Currently Learning
 
 - **RAG architecture patterns** — dense retrieval, re-ranking, hybrid search
-- **LLM fine-tuning** — LoRA/QLoRA on domain-specific datasets  
+- **LLM internals** — GPT architecture, attention, fine-tuning with LoRA/QLoRA
 - **MLOps depth** — model drift detection, data pipeline observability
-- **Agent frameworks** — LangChain, LlamaIndex, tool-use orchestration
+- **Agent frameworks** — LangChain, Promptflow, tool-use orchestration
 
 ---
 
