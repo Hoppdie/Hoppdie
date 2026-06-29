@@ -16,7 +16,7 @@
 
 ## 🧠 About Me
 
-I'm an AI/ML Engineering student at **SRM Institute of Science and Technology** (B.Tech CSE — AI & ML, CGPA 9.1), building systems that go beyond notebooks — production APIs, experiment-tracked pipelines, LLM-powered applications, and RAG architectures.
+I'm an AI/ML Engineering student at **SRM Institute of Science and Technology** (B.Tech CSE — AI & ML), building systems that go beyond notebooks — production APIs, experiment-tracked pipelines, LLM-powered applications, and RAG architectures.
 
 My work lives at the intersection of **machine learning engineering** and **software engineering**: I care equally about model quality and the infrastructure that makes it deployable, observable, and maintainable.
 
